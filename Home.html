@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Home Recipe</h1>
+    </header>
+    <section id="home">
+        <div class="hero">
+            <h2>Discover Delicious Homemade Recipes</h2>
+            <p>From appetizers to desserts, find your next favorite dish here!</p>
+            <button>Explore Recipes</button>
+        </div>
+    </section>
+    <section id="recipes">
+        <h2>Featured Recipes</h2>
+        <div class="recipe-card">
+            <img src="Aboutimage1.jpg" alt="Recipe Image"  height="200vh">
+            <h3>Spaghetti Carbonara</h3>
+            <p>A classic Italian pasta dish.</p>
+        </div>
+        <div class="recipe-card">
+            <img src="chocolate cake recipe.png" alt="Recipe Image" height="200vh">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and moist chocolate cake.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about sharing the best homemade recipes with the world. From family secrets to culinary creations, we bring you the joy of cooking at home.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Home Recipe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
